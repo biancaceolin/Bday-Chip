@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-I check if the input number equals to 2904: I use 8 ui and 8 uio to represent 4 BCD. it it's a match, the LED birthday candle lights up!
+I check if the input number equals to 2904: I use 8 ui and 8 uio to represent 4 BCD. if it's a match, the LED birthday candle lights up!
 
 ## How to test
 Switches configuration to light the message up: 0010 1001 0000 0100. You can also try to input an invalid number and observe it doesnt work.
