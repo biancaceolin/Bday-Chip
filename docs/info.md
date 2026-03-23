@@ -10,7 +10,7 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 I check if the input number equals to 2904: I use 8 ui and 8 uio to represent 4 BCD. if it's a match, the LED birthday candle lights up!
-
+## How to test it
 D3: 0010 
 D2: 1001 
 D2: 0000 
