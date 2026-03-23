@@ -4,7 +4,7 @@ project:
   title:        "Bday Chip"      # Project title
   author:       "Bianca Anita Ceolin"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Wishes happy birthday to Linus"      # One line description of what your project does
+  description:  "Lights up birthday candle for Linus"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,14 +16,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "BCD0"
-  ui[1]: "BCD1"
-  ui[2]: "BCD2"
-  ui[3]: "BCD3"
-  ui[4]: "LOAD"
-  ui[5]: "RESET"
-  ui[6]: "POS0"
-  ui[7]: "POS1"
+  ui[0]: "D3a"
+  ui[1]: "D3b"
+  ui[2]: "D3c"
+  ui[3]: "D3d"
+  ui[4]: "D2a"
+  ui[5]: "D2b"
+  ui[6]: "D2c"
+  ui[7]: "D2d"
 
   # Outputs
   uo[0]: "MATCH_2904"
@@ -36,14 +36,14 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "D1a"
+  uio[1]: "D1b"
+  uio[2]: "D1c"
+  uio[3]: "D1d"
+  uio[4]: "D0a"
+  uio[5]: "D0b"
+  uio[6]: "D0c"
+  uio[7]: "D0d"
 
 # Do not change!
 yaml_version: 6
